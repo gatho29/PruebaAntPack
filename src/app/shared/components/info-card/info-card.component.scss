@@ -1,0 +1,41 @@
+.users-card {
+  background-color: #d7dbdd;
+  border-radius: 10px;
+  height: 200px;
+  padding: 3rem;
+  width: 450px;
+  display: flex;
+  box-shadow: 2px 1px 9px grey;
+  .name {
+    font-size: 20px;
+  }
+}
+
+.users-card:hover {
+  box-shadow: 10px 10px 26px  gray;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.photo {
+  width: 140px;
+  height: 120px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.profile {
+  margin-left: -25px;
+  margin-top: -25px;
+  color: #633974;
+}
+
+.city {
+  color: #808b96;
+  border-bottom: #abb2b9 solid 1px;
+}
+
+.information {
+  text-align: left;
+  margin-left: 50px;
+}

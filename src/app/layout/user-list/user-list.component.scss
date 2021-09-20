@@ -1,0 +1,19 @@
+.container {
+  justify-content: center;
+  height: auto;
+  gap: 1rem;
+  display: flex;
+  flex-flow: wrap;
+  .card {
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}

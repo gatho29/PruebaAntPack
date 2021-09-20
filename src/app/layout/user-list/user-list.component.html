@@ -1,0 +1,10 @@
+<div class="search">
+  <h2>Users List:</h2>
+  <app-search (search)="searchUser($event)"></app-search>
+</div>
+
+<div class="container">
+  <app-info-card *ngFor="let user of users | search: filtroValor" [user]="user" class="card"></app-info-card>
+</div>
+
+
